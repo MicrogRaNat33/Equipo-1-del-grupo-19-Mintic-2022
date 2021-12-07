@@ -1,0 +1,8 @@
+// creamos el package.json
+
+npm init -y
+
+
+//instalamos dependencias
+
+npm install express moongose  nodemon  

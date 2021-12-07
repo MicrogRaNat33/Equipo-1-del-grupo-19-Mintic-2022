@@ -1,0 +1,53 @@
+.register{
+    border: 1px solid black; 
+    margin: 50px;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.login{
+    border: 1px solid black; 
+    margin: 50px;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.contCard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.card{
+    margin: 10px;
+    color: #eaf1f3;
+    border-color:black ;
+}
+
+.ListFile {
+    margin-left: 10px;
+    border: 1px;
+  }
+
+@media screen and (max-width:1100px)   {
+	.contCard{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}	
+
+@media screen and (max-width:800px)   {
+	.contCard{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}	
+
+@media screen and (max-width:520px)   {
+	.contCard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr );
+    }
+}	
